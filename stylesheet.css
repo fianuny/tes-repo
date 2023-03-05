@@ -1,0 +1,82 @@
+header {
+  background-color: #00000034;
+  padding: 13px 90px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+header img:hover {
+  scale: 1.05;
+  transition: .2s;
+}
+
+header li {
+  font-size: 110%;
+  list-style: none;
+  float: left;
+  margin-left: 50px;
+}
+
+header li:hover {
+  scale: 1.05;
+  transition: .1s;
+}
+
+main h1 {
+  position: absolute;
+  font-size: 50px;
+  margin-left: 10%;
+  top: 35%;
+}
+
+main h2 {
+  position: absolute;
+  font-size: 40px;
+  margin-left: 10%;
+  top: 43%;
+  font-style: italic;
+}
+
+main .hp {
+  position: absolute;
+  height: 75%;
+  right: 10%;
+  top: 15%;
+}
+
+main .hp:hover {
+  scale: 1.05;
+  transition: .2s;
+}
+
+main p {
+  position: absolute;
+  top: 53%;
+  margin-left: 10%;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #0180cf;
+}
+
+main a {
+  display: block;
+  padding: 10px 30px;
+}
+
+main p:hover {
+  background-color: #005991;
+  cursor: pointer;
+  transition: .1s;
+  border: 2px solid white;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  background-color: #005991;
+  text-align: center;
+  height: 8vh;
+  bottom: 0;
+}
